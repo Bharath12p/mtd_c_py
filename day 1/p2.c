@@ -9,6 +9,7 @@ int main()
     float f = 0.0f;
 
     printf("%d %d %d %d %d", sizeof(num1), sizeof(num2), sizeof(num3), sizeof(d), sizeof(f));
+    printf("%d %d %d %d %d", sizeof(int), sizeof(long int), sizeof(long long int), sizeof(double), sizeof(float));
 
     return 0;
 }
