@@ -55,6 +55,19 @@ steps to run program in cmd
 gcc <pname.c>
 a.exe
 
+TYPECASTING 
+
+float num = 11 / 3; //implicit typecasting
+printf("%f", num); //upcasting from int to float
+
+int num = 11/3.0; //11 - 11.0 double to int
+printf("%d",num); //downcast from double to int
+
+int num = (int) 11.5f/2.0;
+printf("%d",num);
+
+
+
 DAY1
 
  program1
@@ -72,6 +85,8 @@ DAY1
 			printf("%d is nit even");
 
 	}
+	
+	
 
 
 
