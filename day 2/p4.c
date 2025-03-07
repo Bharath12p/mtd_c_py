@@ -15,6 +15,6 @@ int main()
     else if(averageScore >= 91 && averageScore <= 100)
         puts("Result is Topper");
     else
-        puts("Invalid input");
+        puts("Invalid Number");
     return 0;
 }
