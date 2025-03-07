@@ -9,6 +9,8 @@ CREATING A NEW REPO IN GIT
 -GIVE A SUITABLE DESCRIPTION
 -CHECK ADD README FILE BOX
 
+KEYBOARD SHORTCUTS
+
 -ctrl u for lowercase
 -ctrl shift u for uppercase
 -CTRL PLUS ANYTHING USES A WHOLE WORD
@@ -86,6 +88,77 @@ DAY1
 
 	}
 	
+DAY 2 FRIDAY 07-03-2025
+
+Arithmetic Operators: + - * / %
+
+All are binary operator
+I/p are numbers and also the output
+used with infix notations
+To perform any arithmetic operarions, DT of both the operands must be
+Left to RIght associatitvity w.r.t reading the values or expressiomns
+The calculations happens the programmer given infix exp must be conerted to postfix.
+The operators have iffferent hierarchy (precedence).
+
+--------------------------------------------------------------------------------------
+
+Relational operators: > < == != >= <=
+
+for int = 1 i <= 10 i++ //10 iterations
+
+[10, 20]
+num>=10 num <=20
+
+(10, 30)
+num > 10 and num < 30
+
+--------------------------------------------------------------------------------------
+
+Logical operatirs: & && | || !
+
+inputs and outputs are boolean
+
+PROGRAM 1:
+
+#include<stdio.h>
+
+int main()
+{
+    int a = 13, b = 2, c = -8;
+    if(a <= b & ++b == --c || a>c)
+        puts("Tadiamdamol");
+    else
+        puts("Pushpagiri");
+    printf("%d %d %d \n", a, b, c);
+
+}
+
+PROGRAM 2:
+
+#include<stdio.h>
+
+int main()
+{
+    int a = 3, b = -2, c = -8;
+    b++;
+    printf("%d %d %d\n", a, b, c);
+    ++b;
+    printf("%d %d %d %d\n",a ,b ,c);
+    c = a--;
+    printf("%d %d %d %d\n",a ,b ,c);
+    b = ++c;
+    printf("%d %d %d %d\n",a ,b ,c);
+    c = a-- + --a;
+    printf("%d %d %d %d\n",a ,b ,c);
+    int n=10;
+    printf("%d %d %d %d", --n, ++n, n++, n--);
+    
+    return  0;
+}
+
+
+
+
 	
 
 
