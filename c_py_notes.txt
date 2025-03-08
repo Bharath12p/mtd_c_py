@@ -211,7 +211,38 @@ int main()
 }
 	
 --------------------------------------------------------------------------------------
+5 STEPS SOLVE A PROBLEM.
 
+1. Understand the problem. Recognise the I/P data and the relavent information. Isolate the unwanted data and info.
+Recognise the O/P.
+2. Find the solution(s) with all possible ways, trial and error method, applying an algorithm etc.
+3. Write down the Algorithm
+Step by step procedure to solve the problem'.
+Each step must be Atomic (SRP), simple and finite.
+4. Write the Fake code (pseudocode)
+5. Code it
+
+--------------------------------------------------------------------------------------
+
+DAY 3 08-03-205
+
+POINTERS 
+
+& operators
+  "Address of" operators
+
+* Operators
+	"Value at" operators
+	
+--------------------------------------------------------------------------------------
+
+Find sum of digits of a numbers using recursion
+
+Read N
+if num is zero
+	print result is zero
+else
+	call function(N)
 
 
 
