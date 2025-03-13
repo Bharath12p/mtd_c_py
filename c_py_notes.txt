@@ -222,6 +222,7 @@ Each step must be Atomic (SRP), simple and finite.
 4. Write the Fake code (pseudocode)
 5. Code it
 
+
 --------------------------------------------------------------------------------------
 
 DAY 3 08-03-205
@@ -244,7 +245,24 @@ if num is zero
 else
 	call_function(N);
 
+--------------------------------------------------------------------------------------
+PYTHON
 
 
+DAY 4
 
+in python there is no implicit functions
 
+ARITHMETIC OPERATORS
++ - * / // ** %
+
+range()
+range(10)
+range(2,10)
+range(1,10,3)
+range(10,-5,-2)
+
+step 1: read a string
+2: capture only digits
+3: remove duplicate diguits
+4: form buggestpossible number using the unit digits 
