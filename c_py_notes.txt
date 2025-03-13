@@ -242,7 +242,7 @@ Read N
 if num is zero
 	print result is zero
 else
-	call function(N)
+	call_function(N);
 
 
 
