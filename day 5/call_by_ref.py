@@ -8,3 +8,8 @@ print(numbers)
 my_function(numbers) # call by reference
 print(numbers)
 
+values = input().split()
+print(values)
+print(type(values))
+
+
