@@ -4,27 +4,27 @@ def enqueue(queue):
     element = input('Enter the element to be enqueued: ')
     queue.append(element)
 
-def dequeue(queue): # Mutator
+def dequeue(queue): 
     if len(queue) == 0:
         print('Queue is empty')
         return
     print(f'Dequeued element is {queue[0]}')
     del queue[0]
 
-def listQueue(queue): # Accessor
+def listQueue(queue): 
     if len(queue) == 0:
         print('Queue is empty')
         return
     print(f'The Queue is {queue}')
 
-def front(queue): # Read-only function
+def front(queue): 
     if len(queue) == 0:
         print('Queue is empty')
         return
     print('The front element is', queue[0])
 
 def exit_program(queue):
-    sys.exit('End of Program')
+    sys.exit('End of Pgrm')
 
 def invalid_choice(queue):
     print('Invalid choice entered')
@@ -45,5 +45,5 @@ def start_app(queue):
         choice = int(input('Enter your choice: '))
         get_menu(choice, queue)
 
-queue = [] # This list is going to work as a Queue
+queue = [] 
 start_app(queue)
