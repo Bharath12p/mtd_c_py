@@ -16,8 +16,8 @@ def star_app():
         menu = get_menu()
         menu.get(choice)()
         choice = input ('Do you wush to continue? type 1 for yes , anything for no')
-        if choice is not '1':
+        if choice != 1:
             break
 
-            
+
 
