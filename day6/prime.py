@@ -6,9 +6,10 @@ def check_is_prime(number):
             return False
     return True 
 
-num = int(input("Enter the number to be checked"))
-value = check_is_prime(num)
-if value == True:
-    print('Its a prime number')
-else:
-    print("its not")
+num = int(input('Enter the number of iteration'))
+for i in range(1,num):
+    value = check_is_prime(i)
+    if value == True:
+        print(f'{i} is a prime number')
+    else:
+        print(f"{i} is not a prime number")

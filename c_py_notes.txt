@@ -266,3 +266,55 @@ step 1: read a string
 2: capture only digits
 3: remove duplicate diguits
 4: form buggestpossible number using the unit digits 
+
+API KEY: 370a1f57c711133848892a19b75cb738
+
+
+DAY 5
+
+
+steps to download mysql
+
+g search : download mysql
+https://www.mysql.com/downloads/
+scroll di=own and click mysqlcommunity downloads/
+
+
+changung the setup type to full, click next
+
+
+
+MYSQL COMMANDS:
+
+mysql -u root -p(then press enter)
+specify ur pass
+
+select database(); //This query lists the current db are in
+
+show databases;  // This shows existing DB
+
+create database bharath_db; / THis creates a new DB
+
+use bharath_db; // changes the db
+
+select database() as Current_DB; // This lists the current DB we are in and it gives the heading
+
+Entity name : person (Model)
+id
+name
+gender
+location // fields
+
+create table persons(id int  primary key  auto_increment, name varchar(30) not null, gender varchar(1), location varchar(30));
+
+Inserting table to table
+insert into persons(name, gender, location) values('gagan', 'm', 'blore');
+
+Search one record
+select name, location from persons where id = 5;
+
+update location 
+update location
+
+
+desc persons // Tjhis show the created table
